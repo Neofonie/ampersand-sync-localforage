@@ -57,6 +57,16 @@ module.exports = function(grunt) {
           logConcurrentOutput: true
         }
       }
+    },
+    bump: {
+      options: {
+        pushTo: 'origin'
+      }
+    },
+    changelog: {
+      options: {
+
+      }
     }
   });
 
@@ -64,4 +74,12 @@ module.exports = function(grunt) {
 
   // Default task.
   grunt.registerTask('default', ['jshint', 'karma:build']);
+
+  grunt.registerTask('release', 'Alias for "bump-only", "changelog", and "bump-commit" tasks.', function (versionType) {
+    grunt.task.run('bump-only' + (versionType ? ':' + versionType : ''));
+    grunt.task.run('default');
+    grunt.task.run('changelog');
+    grunt.task.run('bump-commit');
+  });
+  
 };
