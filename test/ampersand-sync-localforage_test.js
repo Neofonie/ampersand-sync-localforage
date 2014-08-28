@@ -1,10 +1,9 @@
-/*global describe,it*/
+/*global describe,it,expect*/
 'use strict';
-var assert = require('assert'),
-  ampersandSyncLocalforage = require('../lib/ampersand-sync-localforage.js');
+var localForage = require('../lib/ampersand-sync-localforage.js');
 
 describe('ampersand-sync-localforage node module.', function() {
   it('must be awesome', function() {
-    assert( ampersandSyncLocalforage .awesome(), 'awesome');
+    expect(localForage.awesome()).to.equal('awesome');
   });
 });

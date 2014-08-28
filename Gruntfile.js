@@ -26,13 +26,6 @@ module.exports = function(grunt) {
         src: ['test/**/*.js']
       }
     },
-    mochacli: {
-      options: {
-        reporter: 'nyan',
-        bail: true
-      },
-      all: ['test/*.js']
-    },
     watch: {
       gruntfile: {
         files: '<%= jshint.gruntfile.src %>',
@@ -40,15 +33,38 @@ module.exports = function(grunt) {
       },
       lib: {
         files: '<%= jshint.lib.src %>',
-        tasks: ['jshint:lib', 'mochacli']
+        tasks: ['jshint:lib']
       },
       test: {
         files: '<%= jshint.test.src %>',
-        tasks: ['jshint:test', 'mochacli']
+        tasks: ['jshint:test']
+      }
+    },
+    karma: {
+      options: {
+        configFile: 'karma.conf.js'
+      },
+      dev: {
+        autoWatch: true,
+        browsers: ['Firefox', 'Chrome', 'PhantomJS']
+      },
+      build: {
+        singleRun: true,
+        browsers: ['PhantomJS']
+      }
+    },
+    concurrent: {
+      dev: {
+        tasks: ['watch', 'karma:dev'],
+        options: {
+          logConcurrentOutput: true
+        }
       }
     }
   });
 
+  grunt.registerTask('dev', ['concurrent:dev']);
+
   // Default task.
-  grunt.registerTask('default', ['jshint', 'mochacli']);
+  grunt.registerTask('default', ['jshint', 'karma:build']);
 };
