@@ -60,6 +60,7 @@ module.exports = function(grunt) {
     },
     bump: {
       options: {
+        commitFiles: ['package.json', 'CHANGELOG.md'],
         pushTo: 'origin'
       }
     },
@@ -81,5 +82,5 @@ module.exports = function(grunt) {
     grunt.task.run('changelog');
     grunt.task.run('bump-commit');
   });
-  
+
 };
