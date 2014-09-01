@@ -8,4 +8,4 @@ This module isn’t ready for use yet. Please don’t try to use it in productio
 ## License
 
 Copyright (c) 2014 Garrett Nay  
-Licensed under the MIT license.
+Licensed under the [MIT license](LICENSE.txt).
