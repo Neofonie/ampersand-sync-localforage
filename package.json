@@ -57,7 +57,7 @@
     "test": "grunt"
   },
   "dependencies": {
-    "localforage": "^0.9.2",
+    "localforage": "mozilla/localForage#aeef657a081198f3eda47b3724002f32a8238868",
     "lodash-node": "^2.4.1"
   }
 }
