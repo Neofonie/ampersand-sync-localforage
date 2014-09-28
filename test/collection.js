@@ -6,11 +6,14 @@ var localforage = require('../lib/ampersand-sync-localforage.js'),
   AmpersandModel = require('ampersand-model');
 
 describe('ampersand-rest-collection', function () {
-
   var Collection = AmpersandCollection.extend({
     // Making sure we use an unique localforage namespace by using Date.now
     sync: localforage.sync(Date.now()),
     model: AmpersandModel.extend({
+      props: {
+        id: 'string',
+        hello: 'string'
+      },
       sync: localforage.sync('ModelNamespace')
     })
   }),
@@ -26,6 +29,7 @@ describe('ampersand-rest-collection', function () {
       }
     });
   });
+
 
   it('saves to localForage', function (done) {
     collection.create({hello: 'world!'}, {
@@ -49,7 +53,7 @@ describe('ampersand-rest-collection', function () {
         var model = collection.get(id);
 
         expect(model).to.be.ok;
-        expect(model.id).to.equal(id);
+        expect(model.getId()).to.equal(id);
         expect(model.hello).to.equal('world!');
 
         done();

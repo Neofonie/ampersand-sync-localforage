@@ -7,6 +7,10 @@ var localforage = require('../lib/ampersand-sync-localforage.js'),
 describe('ampersand-model', function () {
 
   var Model = AmpersandModel.extend({
+    props: {
+      id: 'string',
+      hello: 'string'
+    },
     sync: localforage.sync('ModelNamespace')
   }),
 
@@ -30,7 +34,7 @@ describe('ampersand-model', function () {
   it('saves to localforage', function (done) {
     model.save({hello: 'world!'}, {
       success: function (model) {
-        id = model.id;
+        id = model.getId();
 
         expect(model).to.be.ok;
         expect(id).to.be.ok;
@@ -45,7 +49,7 @@ describe('ampersand-model', function () {
     model.fetch({
       success: function () {
         expect(model).to.be.ok;
-        expect(model.id).to.equal(id);
+        expect(model.getId()).to.equal(id);
         expect(model.hello).to.equal('world!');
 
         done();
