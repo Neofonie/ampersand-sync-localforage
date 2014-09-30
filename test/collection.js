@@ -76,7 +76,12 @@ describe('ampersand-rest-collection', function () {
       success: function () {
         expect(collection.length).to.equal(0);
 
-        done();
+        collection.fetch({
+          success: function () {
+            expect(collection.length).to.equal(0);
+            done();
+          }
+        });
       }
     });
   });
