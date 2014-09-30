@@ -8,13 +8,13 @@ var localforage = require('../lib/ampersand-sync-localforage.js'),
 describe('ampersand-rest-collection', function () {
   var Collection = AmpersandCollection.extend({
     // Making sure we use an unique localforage namespace by using Date.now
-    sync: localforage.sync(Date.now()),
+    sync: localforage(Date.now()),
     model: AmpersandModel.extend({
       props: {
         id: 'string',
         hello: 'string'
       },
-      sync: localforage.sync('ModelNamespace')
+      sync: localforage('ModelNamespace')
     })
   }),
 

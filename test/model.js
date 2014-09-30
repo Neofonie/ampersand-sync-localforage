@@ -11,7 +11,7 @@ describe('ampersand-model', function () {
       id: 'string',
       hello: 'string'
     },
-    sync: localforage.sync('ModelNamespace')
+    sync: localforage('ModelNamespace')
   }),
 
     model,
