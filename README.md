@@ -26,7 +26,7 @@ Just override the `sync` method on your models and collections with the function
 
 Pass a string to the function. This string serves as a namespace that is prefixed to the model’s storage key.
 
-```
+```js
 var Model = require('ampersand-model');
 var localforage = require('ampersand-sync-localforage');
 
@@ -42,7 +42,7 @@ module.exports = Model.extend({
 
 Pass a string to use as the collection’s unique storage key.
 
-```
+```js
 var Collection = require('ampersand-rest-collection');
 var localforage = require('ampersand-sync-localforage');
 var MyModel = require('./my-model');
