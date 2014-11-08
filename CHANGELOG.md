@@ -4,7 +4,7 @@
 
 #### Bug Fixes
 
-* prevent models and collections from reusing keys, thereby overwriting previous records (68f8168bff8b402bc45fca6f7fe2855507ce3028, c5dde8d1c5bf0ea03a0b59448eece753e1fc9662, credit to @kirisu)
+  * prevent models and collections from reusing keys, thereby overwriting previous records ([68f8168b](https://github.com/garrettn/ampersand-sync-localforage/commit/68f8168bff8b402bc45fca6f7fe2855507ce3028), [c5dde8d1](https://github.com/garrettn/ampersand-sync-localforage/commit/c5dde8d1c5bf0ea03a0b59448eece753e1fc9662), credit to [@kirisu](https://github.com/kirisu))
 
 <a name="0.1.0"></a>
 ## 0.1.0 (2014-10-08)
