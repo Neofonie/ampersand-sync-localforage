@@ -64,9 +64,14 @@ module.exports = function(grunt) {
         pushTo: 'origin'
       }
     },
-    changelog: {
+    conventionalChangelog: {
       options: {
-
+        changelogOpts: {
+          preset: 'angular'
+        }
+      },
+      release: {
+        src: 'CHANGELOG.md'
       }
     }
   });
@@ -76,7 +81,7 @@ module.exports = function(grunt) {
   // Default task.
   grunt.registerTask('default', ['jshint', 'karma:build']);
 
-  grunt.registerTask('release', 'Alias for "bump-only", "changelog", and "bump-commit" tasks.', function (versionType) {
+  grunt.registerTask('release', 'Alias for "bump-only", "conventionalChangelog", and "bump-commit" tasks.', function (versionType) {
     grunt.task.run('bump-only' + (versionType ? ':' + versionType : ''));
     grunt.task.run('default');
     grunt.task.run('changelog');
