@@ -1,3 +1,13 @@
+<a name="0.1.2"></a>
+## [0.1.2](https://github.com/garrettn/ampersand-sync-localforage/compare/v0.1.1...v0.1.2) (2015-11-26)
+
+#### Updates
+
+  * update dependencies (thank you, [@rejas](https://github.com/rejas)!)
+  * update Travis config to use container infrastructure and current Node versions
+
+
+
 <a name="0.1.1"></a>
 ### 0.1.1 (2014-11-08)
 
