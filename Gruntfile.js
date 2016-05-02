@@ -84,7 +84,7 @@ module.exports = function(grunt) {
   grunt.registerTask('release', 'Alias for "bump-only", "conventionalChangelog", and "bump-commit" tasks.', function (versionType) {
     grunt.task.run('bump-only' + (versionType ? ':' + versionType : ''));
     grunt.task.run('default');
-    grunt.task.run('changelog');
+    grunt.task.run('conventionalChangelog');
     grunt.task.run('bump-commit');
   });
 
