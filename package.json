@@ -1,6 +1,6 @@
 {
   "name": "ampersand-sync-localforage",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "lib/ampersand-sync-localforage.js",
   "description": "localForage sync adapter for Ampersand.js",
   "homepage": "https://github.com/rejas/ampersand-sync-localforage",

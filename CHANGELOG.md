@@ -1,3 +1,8 @@
+<a name="0.1.3"></a>
+## [0.1.3](https://github.com/rejas/ampersand-sync-localforage/compare/v0.1.2...v0.1.3) (2016-05-02)
+
+
+
 <a name="0.1.2"></a>
 ## [0.1.2](https://github.com/garrettn/ampersand-sync-localforage/compare/v0.1.1...v0.1.2) (2015-11-26)
 
