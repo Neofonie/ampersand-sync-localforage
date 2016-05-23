@@ -59,6 +59,6 @@
   },
   "dependencies": {
     "localforage": "^1.4.0",
-    "lodash": "^4.11.2"
+    "lodash": "^4.13.0"
   }
 }
