@@ -1,7 +1,5 @@
 # ampersand-sync-localforage
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/rejas/ampersand-sync-localforage.svg)](https://greenkeeper.io/)
-
 [![NPM version](https://badge.fury.io/js/ampersand-sync-localforage.svg)](http://badge.fury.io/js/ampersand-sync-localforage)
 [![Build Status](https://secure.travis-ci.org/rejas/ampersand-sync-localforage.png?branch=master)](http://travis-ci.org/rejas/ampersand-sync-localforage)
 [![Dependency Status](https://david-dm.org/rejas/ampersand-sync-localforage.svg)](https://david-dm.org/rejas/ampersand-sync-localforage)
