@@ -1,9 +1,6 @@
 # ampersand-sync-localforage
 
 [![NPM version](https://badge.fury.io/js/ampersand-sync-localforage.svg)](http://badge.fury.io/js/ampersand-sync-localforage)
-[![Build Status](https://secure.travis-ci.org/rejas/ampersand-sync-localforage.png?branch=master)](http://travis-ci.org/rejas/ampersand-sync-localforage)
-[![Dependency Status](https://david-dm.org/rejas/ampersand-sync-localforage.svg)](https://david-dm.org/rejas/ampersand-sync-localforage)
-[![devDependency Status](https://david-dm.org/rejas/ampersand-sync-localforage/dev-status.svg)](https://david-dm.org/rejas/ampersand-sync-localforage#info=devDependencies)
 
 > [localForage](http://mozilla.github.io/localForage) sync adapter for [Ampersand.js](http://ampersandjs.com)
 
