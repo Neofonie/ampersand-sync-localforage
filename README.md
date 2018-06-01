@@ -2,13 +2,13 @@
 
 [![NPM version](https://badge.fury.io/js/ampersand-sync-localforage.svg)](http://badge.fury.io/js/ampersand-sync-localforage)
 
-> [localForage](http://mozilla.github.io/localForage) sync adapter for [Ampersand.js](http://ampersandjs.com)
+> [localForage](https://localforage.github.io/localForage/) sync adapter for [Ampersand.js](http://ampersandjs.com)
 
 ---
 
-This module overrides the sync method of your Ampersand models and collections to use [localForage](http://mozilla.github.io/localForage), a library from Mozilla that provides a unified API for accessing multiple browser storage options (IndexedDB, WebSQL, localStorage). localForage will use the best available option by default.
+This module overrides the sync method of your Ampersand models and collections to use [localForage](https://localforage.github.io/localForage/), a library that provides a unified API for accessing multiple browser storage options (IndexedDB, WebSQL, localStorage). localForage will use the best available option by default.
 
-**WARNING:** This project is still in its early stages, so expect some rough edges or missing functionality. Feel free to file an issue or submit a pull request, to help make this library the best it can be!
+**WARNING:** This project is feature complete for our current needs. But if you encounter some rough edges or missing functionality feel free to file an issue or submit a pull request, to help make this library the best it can be!
 
 ## Installation
 
