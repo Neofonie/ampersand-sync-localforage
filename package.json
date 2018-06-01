@@ -1,20 +1,17 @@
 {
   "name": "ampersand-sync-localforage",
   "version": "0.1.5",
-  "main": "lib/ampersand-sync-localforage.js",
   "description": "localForage sync adapter for Ampersand.js",
-  "homepage": "https://github.com/rejas/ampersand-sync-localforage",
-  "bugs": "https://github.com/rejas/ampersand-sync-localforage/issues",
+  "homepage": "https://github.com/Neofonie/ampersand-sync-localforage",
+  "license": "MIT",
+  "bugs": "https://github.com/Neofonie/ampersand-sync-localforage/issues",
+  "repository": "https://github.com/Neofonie/ampersand-sync-localforage",
+  "main": "lib/ampersand-sync-localforage.js",
   "author": {
     "name": "Garrett Nay",
     "email": "garrettnay@ymail.com",
     "url": "http://garrettn.github.io"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/rejas/ampersand-sync-localforage"
-  },
-  "license": "MIT",
   "files": [
     "lib"
   ],
