@@ -3,6 +3,7 @@
 module.exports = function(grunt) {
   // Show elapsed time at the end
   require('time-grunt')(grunt);
+
   // Load all grunt tasks
   require('load-grunt-tasks')(grunt);
 
@@ -76,16 +77,17 @@ module.exports = function(grunt) {
     }
   });
 
+  // Development task
   grunt.registerTask('dev', ['concurrent:dev']);
 
-  // Default task.
+  // Default task
   grunt.registerTask('default', ['jshint', 'karma:build']);
 
+  // Release task
   grunt.registerTask('release', 'Alias for "bump-only", "conventionalChangelog", and "bump-commit" tasks.', function (versionType) {
     grunt.task.run('bump-only' + (versionType ? ':' + versionType : ''));
     grunt.task.run('default');
     grunt.task.run('conventionalChangelog');
     grunt.task.run('bump-commit');
   });
-
 };
