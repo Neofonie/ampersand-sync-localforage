@@ -9,8 +9,8 @@ before_script:
 deploy:
   provider: npm
   email: npm@veeck.de
-  api_key: d586b99b-a18f-4a66-b625-48beec57eb01
+  api_key:
+    secure: XWnYIXWX93elo5ubuT5aSVF1cC0Nxkmw00AYy8PPiqtyQmFB47meJLHhUtzg+bxzHDxECPZoExEGwvp9p8JY6Hhk4r0IfNID/PcuIh6yLCfYtK3mjOP7WIVd3HrdSNqUDG3U7CjeDWdCAjuPu0HpEy/k+lUq7+hTaKZTAOVZvQY=
   on:
-    branch: master
     tags: true
     repo: Neofonie/ampersand-sync-localforage
