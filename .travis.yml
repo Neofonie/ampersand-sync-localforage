@@ -1,4 +1,3 @@
-sudo: false
 language: node_js
 node_js:
 - '6'
@@ -10,7 +9,7 @@ deploy:
   provider: npm
   email: npm@veeck.de
   api_key:
-    secure: XWnYIXWX93elo5ubuT5aSVF1cC0Nxkmw00AYy8PPiqtyQmFB47meJLHhUtzg+bxzHDxECPZoExEGwvp9p8JY6Hhk4r0IfNID/PcuIh6yLCfYtK3mjOP7WIVd3HrdSNqUDG3U7CjeDWdCAjuPu0HpEy/k+lUq7+hTaKZTAOVZvQY=
+    secure: ruzjWOVQXG2Vt1vT0CuUVUbGe5L4Yl9+qTxNr7aLd1PNZ/p7uPoW6mgj9bSt18d79jAPt51G9tEZCAIIfBaLJ4v5UEuD+k9C3l3WnSDm026GfPuKN7gDFOR1BisxbO/hxTym3ou4H602hk/wSBKt8ckyvarC2OY+j1DpyULkIE8=
   on:
     tags: true
     repo: Neofonie/ampersand-sync-localforage
