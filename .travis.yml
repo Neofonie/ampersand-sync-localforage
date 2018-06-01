@@ -5,11 +5,3 @@ node_js:
 - '10'
 before_script:
 - npm install -g grunt-cli
-deploy:
-  provider: npm
-  email: npm@veeck.de
-  api_key:
-    secure: ruzjWOVQXG2Vt1vT0CuUVUbGe5L4Yl9+qTxNr7aLd1PNZ/p7uPoW6mgj9bSt18d79jAPt51G9tEZCAIIfBaLJ4v5UEuD+k9C3l3WnSDm026GfPuKN7gDFOR1BisxbO/hxTym3ou4H602hk/wSBKt8ckyvarC2OY+j1DpyULkIE8=
-  on:
-    tags: true
-    repo: Neofonie/ampersand-sync-localforage
