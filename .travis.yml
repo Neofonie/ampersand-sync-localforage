@@ -8,9 +8,9 @@ before_script:
 - npm install -g grunt-cli
 deploy:
   provider: npm
-  email: garrettnay@ymail.com
-  api_key:
-    secure: i84L6SLls4MlRJWNrTs/q22YrtvA7XCOj08mUU8tufX176BwAIzzWeANqo4oR1DktjvxsFy5SX9qiTCKlw5c21HE2ZQP/czdIVRW7+PPjmY8F1iT7/YjtJM3F07CZ7oAODCpKNrB5IRJLKhbMm0cMYwlYbuH4nTLspFO/1Y9jBY=
+  email: npm@veeck.de
+  api_key: d586b99b-a18f-4a66-b625-48beec57eb01
   on:
+    branch: master
     tags: true
-    repo: garrettn/ampersand-sync-localforage
+    repo: Neofonie/ampersand-sync-localforage
