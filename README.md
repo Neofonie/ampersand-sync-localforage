@@ -1,5 +1,6 @@
 # ampersand-sync-localforage
 
+[![Build Status](https://travis-ci.org/Neofonie/ampersand-sync-localforage.svg?branch=master,develop)](https://travis-ci.org/Neofonie/ampersand-sync-localforage)
 [![NPM version](https://badge.fury.io/js/ampersand-sync-localforage.svg)](http://badge.fury.io/js/ampersand-sync-localforage)
 
 > [localForage](https://localforage.github.io/localForage/) sync adapter for [Ampersand.js](http://ampersandjs.com)

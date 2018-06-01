@@ -30,7 +30,6 @@ describe('ampersand-rest-collection', function () {
     });
   });
 
-
   it('saves to localForage', function (done) {
     collection.create({hello: 'world!'}, {
       success: function(model) {
@@ -85,5 +84,4 @@ describe('ampersand-rest-collection', function () {
       }
     });
   });
-
 });

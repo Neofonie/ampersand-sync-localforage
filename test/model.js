@@ -78,5 +78,4 @@ describe('ampersand-model', function () {
       }
     });
   });
-
 });
