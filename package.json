@@ -12,6 +12,10 @@
     "email": "garrettnay@ymail.com",
     "url": "http://garrettn.github.io"
   },
+  "contributors": [{
+    "name": "rejas",
+    "url": "https://github.com/rejas"
+  }],
   "files": [
     "lib"
   ],

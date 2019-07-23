@@ -81,5 +81,6 @@ This project started as a port of [localForage Backbone](https://github.com/mozi
 
 ## License
 
-Copyright (c) 2014 Garrett Nay  
+Copyright (c) 2019 Neofonie
+
 Licensed under the [MIT license](LICENSE.txt).
