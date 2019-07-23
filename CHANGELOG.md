@@ -1,6 +1,15 @@
+<a name="1.0.0"></a>
+## [1.0.0](https://github.com/Neofonie/ampersand-sync-localforage/compare/v0.1.6...v1.0.0) (2019-07-23)
+
+#### Updates
+  * Update dependencies
+  
+  
 <a name="0.1.6"></a>
 ## [0.1.6](https://github.com/Neofonie/ampersand-sync-localforage/compare/v0.1.5...v0.1.6) (2018-06-01)
 
+#### Updates
+  * Cleanups
 
 
 <a name="0.1.5"></a>
