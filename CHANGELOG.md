@@ -1,4 +1,12 @@
 <a name="1.0.0"></a>
+## [2.0.0](https://github.com/Neofonie/ampersand-sync-localforage/compare/v1.0.0...v2.0.0) (2020-04-08)
+
+#### Updates
+  * Drop node8 support
+  * Update dependencies
+  
+  
+<a name="1.0.0"></a>
 ## [1.0.0](https://github.com/Neofonie/ampersand-sync-localforage/compare/v0.1.6...v1.0.0) (2019-07-23)
 
 #### Updates
