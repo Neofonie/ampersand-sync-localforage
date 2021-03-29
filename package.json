@@ -1,6 +1,6 @@
 {
   "name": "ampersand-sync-localforage",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "localForage sync adapter for Ampersand.js",
   "license": "MIT",
   "homepage": "https://github.com/Neofonie/ampersand-sync-localforage",
