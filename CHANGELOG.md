@@ -1,3 +1,8 @@
+<a name="3.0.1"></a>
+## [3.0.1](https://github.com/Neofonie/ampersand-sync-localforage/compare/v3.0.0...v3.0.1) (2022-01-25)
+
+
+
 <a name="3.0.0"></a>
 # [3.0.0](https://github.com/Neofonie/ampersand-sync-localforage/compare/v2.0.2...v3.0.0) (2021-08-31)
 
