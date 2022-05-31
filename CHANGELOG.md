@@ -1,25 +1,39 @@
+<a name="4.0.0"></a>
+# [4.0.0](https://github.com/Neofonie/ampersand-sync-localforage/compare/v3.0.1...v4.0.0) (2022-05-31)
+
+#### Updates
+  * Drop node12 support
+  * Update dependencies
+
+
 <a name="3.0.1"></a>
 ## [3.0.1](https://github.com/Neofonie/ampersand-sync-localforage/compare/v3.0.0...v3.0.1) (2022-01-25)
-
 
 
 <a name="3.0.0"></a>
 # [3.0.0](https://github.com/Neofonie/ampersand-sync-localforage/compare/v2.0.2...v3.0.0) (2021-08-31)
 
+#### Updates
+  * Drop node10 support
+  * Update dependencies
 
 
 <a name="2.0.2"></a>
 ## [2.0.2](https://github.com/Neofonie/ampersand-sync-localforage/compare/v2.0.1...v2.0.2) (2021-05-11)
 
+#### Updates
+  * Update dependencies
 
 
 <a name="2.0.1"></a>
 ## [2.0.1](https://github.com/Neofonie/ampersand-sync-localforage/compare/v2.0.0...v2.0.1) (2021-03-29)
 
+#### Updates
+  * Update dependencies
 
 
 <a name="1.0.0"></a>
-## [2.0.0](https://github.com/Neofonie/ampersand-sync-localforage/compare/v1.0.0...v2.0.0) (2020-04-08)
+# [2.0.0](https://github.com/Neofonie/ampersand-sync-localforage/compare/v1.0.0...v2.0.0) (2020-04-08)
 
 #### Updates
   * Drop node8 support
@@ -31,8 +45,8 @@
 
 #### Updates
   * Update dependencies
-  
-  
+
+
 <a name="0.1.6"></a>
 ## [0.1.6](https://github.com/Neofonie/ampersand-sync-localforage/compare/v0.1.5...v0.1.6) (2018-06-01)
 
