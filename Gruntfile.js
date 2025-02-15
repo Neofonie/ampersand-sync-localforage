@@ -44,11 +44,11 @@ module.exports = function(grunt) {
       },
       dev: {
         autoWatch: true,
-        browsers: ['Firefox', 'Chrome', 'PhantomJS']
+        browsers: ['Firefox', 'ChromeHeadless']
       },
       build: {
         singleRun: true,
-        browsers: ['PhantomJS']
+        browsers: ['ChromeHeadless']
       }
     },
     concurrent: {
